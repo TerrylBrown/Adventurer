@@ -1,0 +1,316 @@
+@media (min-width: 450px) {
+
+	/* ============ HEADER ============ */
+	/* ------ Brand ------ */
+	.primary-navbar .navbar-brand {
+		padding-right: 15px;
+    	padding-left: 15px;
+    }
+
+	.primary-header .brand-icon {
+    width: 32px;
+    top: 7px;
+	}
+
+	.primary-navbar .navbar-brand .brand {
+		font-size: 1.414em;
+	}	
+
+	/* ------ Nav Toggle ------ */
+	.nav-toggle-btn {
+		width: 26px;
+		height: 16px;	
+	}
+
+	.nav-toggle-btn span:before {
+		top: 8px;
+	}
+
+	.nav-toggle-btn span:after {
+		top: 14px;
+	}
+
+	/* ------ Mobile Cart ------ */
+	.mobile-cart-btn {
+		width: 25px;
+	}
+
+	.mobile-cart-count {
+		width: 18px;
+		height: 18px;
+	}
+
+	/* ============ HERO ============ */
+	.hero h1 {
+		font-size: 3rem;
+	}
+
+	.hero h1:after {
+		bottom: -3px;
+		width: 100px;
+		margin-left: -50px;
+	}
+
+	.hero p {
+		font-size: 1rem;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	/* ============ TYPOGRAPHY ============ */	
+	h2, .h2 {font-size: 2.4em;}
+	h3, .h3 {font-size: 1.65em;}
+	h4, .h4 {font-size: 1.35em;}
+	
+	/* ============ FORM ============ */
+	.input-large input[type="text"] {
+		padding: 10px;
+		font-size: 1.125rem;	
+	}
+
+	.input-large .button {
+		font-size: 1rem;
+	}
+
+	/* ============ BUTTONS ============ */
+	/* ------ Button Sizes ------ */
+	.button-lg {
+		font-size: 1rem;
+		padding: .7rem 3rem;
+	}
+
+	/* ============ HEADER ============ */
+	/* ------ Topbar ------ */
+	.topbar {
+		height: 3rem;
+	}
+
+	.topbar p,
+	.topbar a {
+		line-height: 3rem;
+	}
+
+	.topbar-free-shipping {
+		margin: 0 auto 0 0;		
+	}
+
+	/* ------ Navbar ------ */
+	.navbar-wrapper {
+		height: 5rem;
+	}
+
+	.primary-header .topbar-nav {
+		display: block;
+		margin-right: -.5rem;
+	}	
+
+	/* ------ Nav Toggle ------ */
+	.nav-toggle-btn {
+		width: 30px;
+		height: 20px;
+	}
+
+	.nav-toggle-btn span:before {
+		top: 10px;
+	}
+
+	.nav-toggle-btn span:after {
+		top: 18px;
+	}
+
+	/* ------ Mobile Cart ------ */
+	.mobile-cart-btn {
+		width: 30px;
+	}
+
+	.mobile-cart-count {
+		width: 20px;
+		height: 20px;
+		padding-top: 1px;
+	}
+
+	/* ------ Mobile Nav ------ */
+	/*.account {
+		display: none;
+	}*/
+
+	/* ------ Menu ------ */
+	.menu-header,
+	.menu-header a {
+		font-size: 1.125rem;
+	}
+
+	.menu-item a {
+		font-size: 1rem;
+	}	
+
+	/* ============ HERO ============ */
+	.hero > .container {
+		margin-top: 3.5rem;
+	}
+
+	.hero h1 {		
+		font-size: 5rem;
+	}
+
+	.hero h1:after {
+		bottom: -2px;
+		width: 120px;
+		margin-left: -60px;
+	}
+
+	.hero p {
+		font-size: 1.5rem;
+	}
+
+	/* ============ SECTION ============ */
+	.section-padding {
+		padding: 6.25rem 0;
+	}
+
+	/* ============ GALLERY ============ */
+	.gallery-card figcaption {
+		font-size: 3rem;
+	}
+
+	.gallery-card figcaption span {
+		font-size: 1.5rem;
+	}
+
+	.gallery-card-text figcaption {
+		font-size: 1.5rem;
+	}	
+
+	/* ============ FOOTER ============ */
+	/* Newsletter Input */
+	.footer-newsletter .inline-input input[type="text"] {
+		padding-right: 120px;
+	}
+
+	.footer-newsletter .inline-input .button {
+		width: 120px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	body.no-scroll {
+		overflow: initial;
+	}
+
+	/* ============ TYPOGRAPHY ============ */	
+	h2, .h2 {font-size: 2.827em;}
+	h3, .h3 {font-size: 1.999em;}
+	h4, .h4 {font-size: 1.414em;}
+
+	/* ============ HEADER ============ */	
+	/* ------ Primary Nav ------ */
+	.primary-nav {
+		display: block;
+		margin-right: -.5rem;		
+	}	
+
+	/* ------ Topbar ------ */
+	.topbar:after {
+		display: none;
+	}
+
+	/* ------ Mobile Nav ------ */
+	.mobile-nav {
+		display: none !important;
+	}
+
+	/* ------ Nav Toggle ------ */
+	.nav-toggle {
+		display: none;
+	}
+
+	/* ------ Mobile Cart ------ */
+	.mobile-cart {
+		display: none;
+	}
+
+	/* ============ GALLERY ============ */	
+	.gallery-item {	
+		width: 50%;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	/* ============ HEADER ============ */
+
+	/* ------ Primary Nav ------ */
+	.primary-nav .nav-item {
+		margin: 0 0 0 1rem;
+	}
+
+	.primary-nav .nav-item {
+	    margin-left: 1rem;
+	}
+
+	.nav-link-icon span {
+		display: inline;
+	}
+
+	/* ============ HERO ============ */
+	.hero h1 {		
+		font-size: 7.5rem;
+	}
+
+	.hero h1:after {
+		bottom: 0;
+		width: 150px;
+		margin-left: -75px;
+	}
+
+	.hero p {
+		font-size: 1.875rem;
+	}
+
+	/* ============ GALLERY ============ */	
+	.new-arrivals {
+		width: 33.3334%;
+		height: 42rem;
+	}
+
+	.new-arrivals > .gallery-card {
+		height: 100%;		
+	}
+
+	.new-equipment {
+		width: 66.6666%;
+		height: 21rem;	
+	}
+
+	.new-equipment > .gallery-card {
+		height: 100%;
+	}
+	
+	.tent-equipment,
+	.save-15 {
+		position: absolute;
+		width: 33.3334%;
+		height: 21rem;	
+	}
+
+	.tent-equipment > .gallery-card,
+	.save-15 > .gallery-card {
+		height: 100%;
+	}
+
+	.tent-equipment {
+		bottom: 0;
+		left: 33.3334%;
+	}
+
+	.save-15 {
+		bottom: 0;
+		right: 0;
+	}
+
+}
